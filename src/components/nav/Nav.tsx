@@ -5,7 +5,6 @@ import { useWindowSize } from '~/hooks/useWindowSize';
 type NavProps = {
   open?: boolean;
   className?: string;
-  width: number | undefined;
 };
 
 const Nav: React.FC<NavProps> = ({ className }) => {
@@ -13,7 +12,7 @@ const Nav: React.FC<NavProps> = ({ className }) => {
   const [open, setOpen] = useState(true);
 
   useEffect(() => {
-    width < 700 ? setOpen(false) : setOpen(true);
+    (width != null ? width : 0) < 700 ? setOpen(false) : setOpen(true);
   }, [width]);
 
   return (
