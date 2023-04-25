@@ -1,0 +1,18 @@
+{
+  "studentTypes": [
+    {
+      "title": "businesses",
+      "image": "https://images.pexels.com/photos/3811859/pexels-photo-3811859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "description": "Explore our business courses and learn the essential skills needed to thrive in today's fast-paced business world.",
+      "link": "https://example.com/business",
+      "buttonText": "Learn More"
+    },
+    {
+      "title": "individuals",
+      "image": "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "description": "Join our community and connect with like-minded individuals who are passionate about making a positive impact in the world.",
+      "link": "https://example.com/community",
+      "buttonText": "Join Now"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "companies": [
+    {
+      "name": "Google",
+      "logo": "/images/company/google.svg"
+    },
+    {
+      "name": "Netflix",
+      "logo": "/images/company/netflix.svg"
+    },
+    {
+      "name": "Airbnb",
+      "logo": "/images/company/airbnb.svg"
+    },
+    {
+      "name": "Amazon",
+      "logo": "/images/company/amazon.svg"
+    },
+    {
+      "name": "Facebook",
+      "logo": "/images/company/facebook.svg"
+    },
+    {
+      "name": "Grab",
+      "logo": "/images/company/grab.svg"
+    }
+  ]
+}

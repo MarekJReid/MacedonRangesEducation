@@ -46,13 +46,25 @@
       "import clsxm from '@/lib/clsxm';\n",
       "type ${1:${TM_FILENAME_BASE}}Props= {\n",
       "} & React.ComponentPropsWithoutRef<'div'>\n",
-      "export default function ${1:${TM_FILENAME_BASE}}({className, ...rest}: ${1:${TM_FILENAME_BASE}}Props) {",
-      "  return (",
-      "    <div className={clsxm(['', className])} {...rest}>",
-      "      $0",
-      "    </div>",
+      "const ${1:${TM_FILENAME_BASE}}: React.FC<${1:${TM_FILENAME_BASE}}Props> = ({}) => {",
+      "  return ( <>",
+      "    </>",
       "  )",
       "}"
+    ]
+  }, 
+  "React TS Functional Component with Props": {
+    "prefix": "tsrcp",
+    "body": [
+      "import * as React from 'react';\n",
+      "type ${1:${TM_FILENAME_BASE}}Props= {\n",
+      "}",
+      "const ${1:${TM_FILENAME_BASE}}: React.FC<${1:${TM_FILENAME_BASE}}Props> = () => {",
+      "  return ( <>",
+      "    </>",
+      "  )",
+      "}",
+      "export default ${1:${TM_FILENAME_BASE}};"
     ]
   },
   //#endregion  //*======== React ===========

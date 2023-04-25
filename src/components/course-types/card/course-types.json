@@ -1,0 +1,25 @@
+{
+  "courseTypes": [
+    {
+      "title": "Business Accounting Fundamentals",
+      "description": "Learn the basics of financial accounting, including how to read and analyze financial statements. This course is perfect for anyone interested in finance or accounting.",
+      "link": "https://www.example.com/financial-accounting",
+      "button_text": "Enroll Now",
+      "color": "blue"
+    },
+    {
+      "title": "Project Management Essentials",
+      "description": "Gain the skills and knowledge to effectively manage projects from start to finish. This course covers project planning, risk management, and stakeholder communication.",
+      "link": "https://www.example.com/project-management-essentials",
+      "button_text": "Get Started",
+      "color": "green"
+    },
+    {
+      "title": "Finance Short Courses",
+      "description": "Learn how to develop a successful business plan and bring your entrepreneurial ideas to life. This course covers market research, business models, and funding strategies.",
+      "link": "https://www.example.com/entrepreneurship-innovation",
+      "button_text": "Learn More",
+      "color": "red"
+    }
+  ]
+}
